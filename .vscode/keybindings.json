@@ -1,0 +1,12 @@
+[
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "editorTextFocus && vim.active"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-vim.window",
+        "when": "editorTextFocus && vim.active"
+    }
+]

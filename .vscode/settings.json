@@ -1,0 +1,19 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "Anaconda PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "args": [
+                "-ExecutionPolicy",
+                "ByPass",
+                "-NoExit",
+                "-Command",
+                "& 'D:\\anaconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'AIA_ENV'"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Anaconda PowerShell",
+    "python.defaultInterpreterPath": "D:\\anaconda3\\envs\\AIA_ENV\\python.exe",
+    "vim.handleKeys": {
+        "<C-w>": false
+    }
+}

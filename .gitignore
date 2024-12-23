@@ -1,0 +1,6 @@
+# VS Code 設定檔中的臨時文件
+.vscode/.history/
+
+# Anaconda 環境中的臨時文件
+conda_env/__pycache__/
+*.pyc
