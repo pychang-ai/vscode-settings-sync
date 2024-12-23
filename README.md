@@ -1,6 +1,10 @@
 # VS Code 和 Anaconda 設定檔 | VS Code and Anaconda Settings | VS Code と Anaconda 設定
 
+<div align="center">
+
 [中文](README.md) | [English](README_EN.md) | [日本語](README_JP.md)
+
+</div>
 
 這個倉庫包含 VS Code/Windsurf 和 Anaconda 環境設定，專門設計用於在不同電腦間同步設定。特別優化支援 Windsurf（基於 VS Code 的 AI 輔助開發環境）。
 

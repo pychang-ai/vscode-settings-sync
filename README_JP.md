@@ -1,6 +1,10 @@
 # VS Code と Anaconda 設定 | VS Code and Anaconda Settings | VS Code 和 Anaconda 設定檔
 
+<div align="center">
+
 [中文](README.md) | [English](README_EN.md) | [日本語](README_JP.md)
+
+</div>
 
 このリポジトリには、異なるコンピュータ間で同期するための VS Code と Anaconda 環境設定が含まれています。
 

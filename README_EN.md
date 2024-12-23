@@ -1,8 +1,10 @@
 # VS Code and Anaconda Settings | VS Code 和 Anaconda 設定檔 | VS Code と Anaconda 設定
 
+<div align="center">
+
 [中文](README.md) | [English](README_EN.md) | [日本語](README_JP.md)
 
-This repository contains VS Code/Windsurf and Anaconda environment settings, specifically designed for synchronizing settings across different computers. Specially optimized for Windsurf (VS Code-based AI-assisted development environment).
+</div>
 
 ## Special Notes
 - Settings optimized for Windsurf IDE, ensuring full compatibility with Codeium AI assistant
