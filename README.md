@@ -1,6 +1,6 @@
-# VS Code 和 Anaconda 設定檔 | VS Code and Anaconda Settings
+# VS Code 和 Anaconda 設定檔 | VS Code and Anaconda Settings | VS Code と Anaconda 設定
 
-[中文](README.md) | [English](README_EN.md)
+[中文](README.md) | [English](README_EN.md) | [日本語](README_JP.md)
 
 這個倉庫包含我的 VS Code 和 Anaconda 環境設定，用於在不同電腦間同步設定。
 
