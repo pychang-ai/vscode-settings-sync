@@ -2,34 +2,42 @@
 
 [中文](README.md) | [English](README_EN.md) | [日本語](README_JP.md)
 
-這個倉庫包含我的 VS Code 和 Anaconda 環境設定，用於在不同電腦間同步設定。
+這個倉庫包含 VS Code/Windsurf 和 Anaconda 環境設定，專門設計用於在不同電腦間同步設定。特別優化支援 Windsurf（基於 VS Code 的 AI 輔助開發環境）。
+
+## 特別說明
+- 本設定專為 Windsurf IDE 優化，確保與 Codeium AI 助手完全相容
+- 同時支援標準 VS Code，但某些 AI 相關功能可能僅在 Windsurf 中可用
+- 包含 GPU 加速相關設定，優化 AI 開發體驗
 
 <!-- CASCADE-SETTINGS-SYNC-MARKER -->
 <!-- 版本: 1.0 -->
 <!-- 上次更新: 2024-12-23 -->
-<!-- 設定類型: VS Code, Anaconda, GPU -->
+<!-- 設定類型: VS Code, Windsurf, Anaconda, GPU -->
 
-## 快速預覽 | Quick Preview
+## 快速預覽
 ![VS Code 設定預覽](images/vscode-preview.png)
 ![Anaconda 環境預覽](images/anaconda-preview.png)
 
-## 自動同步說明
-如果您使用 VS Code 並安裝了 Codeium 擴展，只需：
+## 自動同步步驟
+如果您使用 VS Code 和 Codeium 擴展：
 1. 打開這個 README.md 文件
-2. 告訴 Codeium："請幫我同步這個專案的設定"
-3. Codeium 會自動檢測設定標記並幫您完成所有設定
+2. 告訴 Codeium "請幫我同步這個專案的設定"
+3. Codeium 會自動檢測設定標記並完成所有設定
 
 如果您想手動設定，請按照下面的步驟操作。
 
-## 檔案結構
-- `.vscode/`: VS Code 設定檔
-  - `settings.json`: VS Code 基本設定
-  - `keybindings.json`: 快捷鍵設定
-- `conda_env/`: Anaconda 環境設定
-  - `aia_env.yml`: AIA_ENV 環境配置文件
-- `images/`: 說明文件圖片
-  - `vscode-preview.png`
-  - `anaconda-preview.png`
+## 目錄結構
+```
+vscode-settings-sync/
+├── .vscode/                 # VS Code 設定
+│   ├── settings.json       # 基本設定
+│   └── keybindings.json    # 鍵盤快捷鍵
+├── conda_env/              # Anaconda 環境設定
+│   └── aia_env.yml        # AIA_ENV 環境配置
+└── images/                 # 文檔圖片
+    ├── vscode-preview.png
+    └── anaconda-preview.png
+```
 
 ## 初始設定流程
 

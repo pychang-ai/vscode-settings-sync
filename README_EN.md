@@ -2,22 +2,27 @@
 
 [中文](README.md) | [English](README_EN.md) | [日本語](README_JP.md)
 
-This repository contains my VS Code and Anaconda environment settings for synchronization across different computers.
+This repository contains VS Code/Windsurf and Anaconda environment settings, specifically designed for synchronizing settings across different computers. Specially optimized for Windsurf (VS Code-based AI-assisted development environment).
+
+## Special Notes
+- Settings optimized for Windsurf IDE, ensuring full compatibility with Codeium AI assistant
+- Also supports standard VS Code, though some AI-related features may only be available in Windsurf
+- Includes GPU acceleration settings, optimizing AI development experience
 
 <!-- CASCADE-SETTINGS-SYNC-MARKER -->
 <!-- Version: 1.0 -->
 <!-- Last Updated: 2024-12-23 -->
-<!-- Settings Type: VS Code, Anaconda, GPU -->
+<!-- Settings Type: VS Code, Windsurf, Anaconda, GPU -->
 
 ## Quick Preview
 ![VS Code Settings Preview](images/vscode-preview.png)
 ![Anaconda Environment Preview](images/anaconda-preview.png)
 
-## Automatic Sync Instructions
-If you use VS Code with the Codeium extension, simply:
+## Automatic Sync Steps
+If you're using VS Code with Codeium extension:
 1. Open this README.md file
-2. Tell Codeium: "Please help me sync this project's settings"
-3. Codeium will automatically detect the settings marker and help you complete all settings
+2. Tell Codeium "Please sync the settings for this project"
+3. Codeium will automatically detect the settings markers and complete all setup
 
 If you prefer manual setup, follow the steps below.
 
@@ -28,7 +33,7 @@ vscode-settings-sync/
 │   ├── settings.json       # Basic settings
 │   └── keybindings.json    # Keyboard shortcuts
 ├── conda_env/              # Anaconda environment settings
-│   └── aia_env.yml        # AIA_ENV environment configuration
+│   └── aia_env.yml        # AIA_ENV environment config
 └── images/                 # Documentation images
     ├── vscode-preview.png
     └── anaconda-preview.png
