@@ -1,6 +1,25 @@
-# VS Code 和 Anaconda 設定檔
+# VS Code 和 Anaconda 設定檔 | VS Code and Anaconda Settings
+
+[中文](README.md) | [English](README_EN.md)
 
 這個倉庫包含我的 VS Code 和 Anaconda 環境設定，用於在不同電腦間同步設定。
+
+<!-- CASCADE-SETTINGS-SYNC-MARKER -->
+<!-- 版本: 1.0 -->
+<!-- 上次更新: 2024-12-23 -->
+<!-- 設定類型: VS Code, Anaconda, GPU -->
+
+## 快速預覽 | Quick Preview
+![VS Code 設定預覽](images/vscode-preview.png)
+![Anaconda 環境預覽](images/anaconda-preview.png)
+
+## 自動同步說明
+如果您使用 VS Code 並安裝了 Codeium 擴展，只需：
+1. 打開這個 README.md 文件
+2. 告訴 Codeium："請幫我同步這個專案的設定"
+3. Codeium 會自動檢測設定標記並幫您完成所有設定
+
+如果您想手動設定，請按照下面的步驟操作。
 
 ## 檔案結構
 - `.vscode/`: VS Code 設定檔
@@ -8,6 +27,9 @@
   - `keybindings.json`: 快捷鍵設定
 - `conda_env/`: Anaconda 環境設定
   - `aia_env.yml`: AIA_ENV 環境配置文件
+- `images/`: 說明文件圖片
+  - `vscode-preview.png`
+  - `anaconda-preview.png`
 
 ## 初始設定流程
 
